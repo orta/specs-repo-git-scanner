@@ -1,0 +1,13 @@
+{
+  "license": "MIT",
+  "scripts": {
+    "scan": "node --experimental-json-modules scripts/scanner.mjs",
+    "diffs": "node --experimental-json-modules scripts/diffchecker.mjs",
+    "suspicious": "node --experimental-json-modules scripts/suspicious.mjs"
+  },
+  "dependencies": {
+    "@types/nodegit": "^0.27.1",
+    "nodegit": "^0.27.0",
+    "readline-sync": "^1.4.10"
+  }
+}
